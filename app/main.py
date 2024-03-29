@@ -1,8 +1,8 @@
 import psycopg2
 
-from pydantic import BaseModel
 from fastapi import FastAPI, Request
 from dotenv import dotenv_values
+from models.models import UserInput
 
 env_vars = dotenv_values()
 
@@ -10,13 +10,6 @@ connection = psycopg2.connect(**env_vars)
 
 app = FastAPI()
 
-
-class UserInput(BaseModel):
-    '''Base model'''
-
-    task_id: int
-    description: str
-    done: bool = False
 
 
 class Sql:
