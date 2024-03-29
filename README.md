@@ -3,11 +3,11 @@
 ![Static Badge](https://img.shields.io/badge/psycopg2-2.9.9-blue)
 ![Static Badge](https://img.shields.io/badge/pydantic-2.6.4-blue)
 ![Static Badge](https://img.shields.io/badge/uvicorn-0.29.0-blue)
-
+---
 
 
 ### Structure
-![info](https://i.imgur.com/izMtFKP.png)
+![info](https://i.imgur.com/aded72u.png)
 ---
 ![info](https://i.imgur.com/lMImmm7.png)
 ---
@@ -26,6 +26,6 @@
 ---
 
 ### Usage:
-+ Visit /docs to access the interactive API documentation.
++ Visit `/docs` to access the interactive API documentation.
 + Use the provided endpoints to manage your TODO list.
   
