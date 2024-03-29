@@ -6,7 +6,7 @@
 ---
 
 
-### Structure
+### Structure:
 ![info](https://i.imgur.com/aded72u.png)
 ---
 ![info](https://i.imgur.com/lMImmm7.png)
